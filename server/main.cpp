@@ -1,8 +1,10 @@
 #include "config.h"
-
+#include "server.h"
+#include "socket_utils.h"
 #include <cstdlib>
 #include <cstring>
 #include <iostream>
+#include <unistd.h>
 
 static void print_usage(const char *prog) {
   std::cerr << "Usage: " << prog << " [options]\n"
@@ -130,6 +132,14 @@ int main(int argc, char *argv[]) {
   std::cout << "network_server starting with validated configuration\n";
   std::cout << "port=" << cfg.port << " backlog=" << cfg.backlog
             << " max_connections=" << cfg.max_connections << "\n";
+
+  int listen_fd = create_listening_socket(
+      cfg.port, cfg.backlog, cfg.recv_buffer_bytes, cfg.send_buffer_bytes);
+  set_nonblocking(listen_fd);
+  std::cout << "Listening socket created, fd=" << listen_fd << "\n";
+
+  Server server(listen_fd);
+  server.run();
 
   return EXIT_SUCCESS;
 }
