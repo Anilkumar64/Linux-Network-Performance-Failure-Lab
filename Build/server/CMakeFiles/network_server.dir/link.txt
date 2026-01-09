@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/network_server.dir/main.cpp.o CMakeFiles/network_server.dir/server.cpp.o CMakeFiles/network_server.dir/connection.cpp.o CMakeFiles/network_server.dir/socket_utils.cpp.o -o ../bin/network_server  -lpthread 
