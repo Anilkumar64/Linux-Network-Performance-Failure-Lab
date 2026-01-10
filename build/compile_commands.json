@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/anilreddy/Documents/linux networking lab/build/server",
+  "command": "/usr/bin/c++ -D_GNU_SOURCE -I\"/home/anilreddy/Documents/linux networking lab/server\" -O3 -DNDEBUG -Wall -Wextra -Werror -Wpedantic -std=c++17 -o CMakeFiles/network_server.dir/main.cpp.o -c \"/home/anilreddy/Documents/linux networking lab/server/main.cpp\"",
+  "file": "/home/anilreddy/Documents/linux networking lab/server/main.cpp"
+},
+{
+  "directory": "/home/anilreddy/Documents/linux networking lab/build/server",
+  "command": "/usr/bin/c++ -D_GNU_SOURCE -I\"/home/anilreddy/Documents/linux networking lab/server\" -O3 -DNDEBUG -Wall -Wextra -Werror -Wpedantic -std=c++17 -o CMakeFiles/network_server.dir/server.cpp.o -c \"/home/anilreddy/Documents/linux networking lab/server/server.cpp\"",
+  "file": "/home/anilreddy/Documents/linux networking lab/server/server.cpp"
+},
+{
+  "directory": "/home/anilreddy/Documents/linux networking lab/build/server",
+  "command": "/usr/bin/c++ -D_GNU_SOURCE -I\"/home/anilreddy/Documents/linux networking lab/server\" -O3 -DNDEBUG -Wall -Wextra -Werror -Wpedantic -std=c++17 -o CMakeFiles/network_server.dir/connection.cpp.o -c \"/home/anilreddy/Documents/linux networking lab/server/connection.cpp\"",
+  "file": "/home/anilreddy/Documents/linux networking lab/server/connection.cpp"
+},
+{
+  "directory": "/home/anilreddy/Documents/linux networking lab/build/server",
+  "command": "/usr/bin/c++ -D_GNU_SOURCE -I\"/home/anilreddy/Documents/linux networking lab/server\" -O3 -DNDEBUG -Wall -Wextra -Werror -Wpedantic -std=c++17 -o CMakeFiles/network_server.dir/socket_utils.cpp.o -c \"/home/anilreddy/Documents/linux networking lab/server/socket_utils.cpp\"",
+  "file": "/home/anilreddy/Documents/linux networking lab/server/socket_utils.cpp"
+}
+]

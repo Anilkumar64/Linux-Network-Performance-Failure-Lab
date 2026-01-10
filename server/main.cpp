@@ -57,6 +57,7 @@ static bool validate_config(const ServerConfig &cfg) {
 }
 
 int main(int argc, char *argv[]) {
+
   ServerConfig cfg = ServerConfig::defaults();
 
   for (int i = 1; i < argc; ++i) {
@@ -138,7 +139,8 @@ int main(int argc, char *argv[]) {
   set_nonblocking(listen_fd);
   std::cout << "Listening socket created, fd=" << listen_fd << "\n";
 
-  Server server(listen_fd);
+  Server server(listen_fd, cfg.max_connections);
+
   server.run();
 
   return EXIT_SUCCESS;

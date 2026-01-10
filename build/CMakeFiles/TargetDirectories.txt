@@ -1,0 +1,8 @@
+/home/anilreddy/Documents/linux networking lab/build/CMakeFiles/edit_cache.dir
+/home/anilreddy/Documents/linux networking lab/build/CMakeFiles/rebuild_cache.dir
+/home/anilreddy/Documents/linux networking lab/build/server/CMakeFiles/network_server.dir
+/home/anilreddy/Documents/linux networking lab/build/server/CMakeFiles/edit_cache.dir
+/home/anilreddy/Documents/linux networking lab/build/server/CMakeFiles/rebuild_cache.dir
+/home/anilreddy/Documents/linux networking lab/build/client/CMakeFiles/network_client.dir
+/home/anilreddy/Documents/linux networking lab/build/client/CMakeFiles/edit_cache.dir
+/home/anilreddy/Documents/linux networking lab/build/client/CMakeFiles/rebuild_cache.dir
